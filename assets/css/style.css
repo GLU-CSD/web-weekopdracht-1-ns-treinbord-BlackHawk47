@@ -3,7 +3,7 @@
     display: flex;
     margin-left: 124px;
     margin-top: 150px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Frutiger', 'Helvetica Neue', Arial, sans-serif;
     border: 2px solid #000;
     opacity: 0.75;
 }
@@ -31,9 +31,9 @@
     border: 2px solid #000;
 }
 
-body {
+/* body {
     background-image: url("../img/treinbord.webp");
-}
+} */
 
 #tijd {
     position: absolute;
@@ -112,7 +112,7 @@ body {
 
     font-weight: bold;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Frutiger', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #b {
@@ -127,7 +127,7 @@ body {
 
     font-weight: bold;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Frutiger', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #heerlen{
@@ -142,7 +142,7 @@ body {
 
     font-weight: bold;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Frutiger', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #info{
@@ -157,7 +157,7 @@ body {
 
     font-weight: bold;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Frutiger', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #inforegel2{
@@ -172,7 +172,7 @@ body {
 
     font-weight: bold;
 
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'Frutiger', 'Helvetica Neue', Arial, sans-serif; 
 }
 #intercity{
     position: absolute;
@@ -186,8 +186,9 @@ body {
 
     font-weight: bold;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Frutiger', 'Helvetica Neue', Arial, sans-serif;
 }
+
 
 img{
     height: 15%;
@@ -195,9 +196,25 @@ img{
     margin-top: 6px;
     margin-left: 397px;
 }
+
+.klok{
+    height: 1342px;
+    width: 1270px;
+    margin-top: 8px;
+    margin-left: -387px;
+}
 .bordje{
     height:200px;
     width: 1542px;
     margin-top: 158px;
     margin-left: -280px;
+}
+#onderkantbordje{
+    height: 25px;
+    width: 480px;
+    margin-top: -163px;
+    margin-left: 0px;
+    font-size: 21px;
+    background-color: #02024a;
+    color: #ffffff;
 }
